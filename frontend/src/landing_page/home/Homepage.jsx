@@ -11,9 +11,9 @@ function HomePage() {
     return ( 
         <>
         <Navbar></Navbar>
-        <Awards></Awards>
         <Education></Education>
         <Hero></Hero>
+        <Awards></Awards>
         <Pricing></Pricing>
         <Stats></Stats>
         <OpenAccount></OpenAccount>
