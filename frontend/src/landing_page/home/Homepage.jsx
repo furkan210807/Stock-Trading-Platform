@@ -11,11 +11,11 @@ function HomePage() {
     return ( 
         <>
         <Navbar></Navbar>
-        <Education></Education>
         <Hero></Hero>
         <Awards></Awards>
-        <Pricing></Pricing>
         <Stats></Stats>
+        <Pricing></Pricing>
+        <Education></Education>
         <OpenAccount></OpenAccount>
         <Footer></Footer>
 
