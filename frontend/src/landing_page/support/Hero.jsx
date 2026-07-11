@@ -1,7 +1,12 @@
 import React from 'react';
 function Hero() {
     return ( 
-        <h1>Hero</h1>
+        
+        <div className="container">
+            <div className="row">
+                
+            </div>
+        </div>
      );
 }
 

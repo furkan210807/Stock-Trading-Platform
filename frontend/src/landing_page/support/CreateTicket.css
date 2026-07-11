@@ -1,0 +1,84 @@
+/* .accordion-button{
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 350;
+    background-color:white !important;
+    padding-left: 40px;
+    
+    
+    
+}
+
+.accordion-body{
+    padding: 30px 55px;
+   
+}
+
+.accordion-body ul{
+    padding-left: 20px;
+}
+
+.accordion-body li{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.accordion-body a{
+    
+    text-decoration:none;
+}
+
+.accordion-body a:hover{
+    text-decoration:underline;
+} */
+
+/* Accordion Container */
+.accordion{
+    width: 65%;
+    margin-left:200px;
+   
+  
+    
+}
+
+/* Accordion Item */
+.accordion-item{
+    border: 1px solid #dcdcdc !important;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    overflow: hidden;
+   
+}
+
+/* Button */
+.accordion-button{
+    background: #fff !important;
+    color: #424242 !important;
+    box-shadow: none !important;
+    border: none;
+    font-size: 20px;
+    font-weight: 350;
+    padding: 9px;  
+}
+
+/* Open hone ke baad bhi white hi rahe */
+.accordion-button:not(.collapsed){
+    background: #fff !important;
+    color: #424242 !important;
+    box-shadow: none !important;
+    
+}
+
+/* Blue outline remove */
+.accordion-button:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    
+}
+
+/* Bootstrap ka default blue border remove */
+.accordion-button:focus-visible{
+    box-shadow: none !important;
+    outline: none !important;
+    
+}
