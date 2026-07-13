@@ -1,13 +1,16 @@
 import React from 'react';
+
+
 function Hero() {
     return ( 
         
-        <div className="container">
-            <div className="row">
-                
-            </div>
+        <section className="container-fluid" id='SupportHero'>
+        <div className="p-5 mt-5 mb-5" id='supportWrapper'>
+                <h3>Support Portal</h3>
+                <a href="">Track Tickets</a>
         </div>
+        </section>
      );
 }
 
-export default hero;
+export default Hero;

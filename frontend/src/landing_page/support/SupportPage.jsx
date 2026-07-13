@@ -1,11 +1,12 @@
 import React from 'react';
 import CreateTicket from './CreateTicket';
-import Hero from '../home/Hero';
+import Hero from './Hero.jsx';
+
 function SupportPage() {
     return ( 
         <>
-        <CreateTicket></CreateTicket>
         <Hero></Hero>
+        <CreateTicket></CreateTicket>
         </>
      );
 }

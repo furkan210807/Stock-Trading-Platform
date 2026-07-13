@@ -117,3 +117,13 @@ body{
   margin: 0px;
 
 }
+
+#SupportHero{
+  background-color: rgba(56,126, 209);
+  color: white;
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
